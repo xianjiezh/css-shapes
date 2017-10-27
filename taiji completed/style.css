@@ -1,0 +1,50 @@
+body{
+    background-color: #ddd;
+    padding: 200px;
+}
+.taiji {
+    width: 96px;
+    height: 48px;
+    background: #eee;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 1px 50px 1px;
+    border-radius: 50%;
+    position: relative;
+}
+ 
+.taiji::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: white;
+    border: 18px solid black;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+}
+.taiji::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: white;
+    border: 18px solid black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.taiji::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: black;
+    border: 18px solid #eee;
+    border-radius:50%;
+    width: 12px;
+    height: 12px;
+}
+ 
+ 
