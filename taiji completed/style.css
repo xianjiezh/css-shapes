@@ -2,49 +2,64 @@ body{
     background-color: #ddd;
     padding: 200px;
 }
-.taiji {
-    width: 96px;
-    height: 48px;
-    background: #eee;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px 1px 50px 1px;
-    border-radius: 50%;
+div{
+    padding: 0;
+    margin: 0;
+}
+.taijiTop{
+    width:200px;
+    height:100px;
+    border-top:1px solid black;
+    border-radius: 100px 100px 0 0 ;
+    background-color: black;
     position: relative;
 }
- 
-.taiji::before {
-    content: "";
+.black{
+    width:100px;
+    height: 50px;
+    background-color: white;
+    border-top:1px solid white;
+    border-radius: 100px 100px 0 0 ;
     position: absolute;
-    top: 50%;
-    left: 0;
-    background: white;
-    border: 18px solid black;
-    border-radius: 100%;
-    width: 12px;
-    height: 12px;
+    bottom: 0;
+    left:0;
 }
-.taiji::before {
-    content: "";
+
+.taijiBottom{
+    width:200px;
+    height:100px;
+    border-bottom:1px solid white;
+    border-radius: 0 0 100px 100px ;
+    background-color: white;
+    position: relative;
+}
+.white{
+    width:100px;
+    height: 50px;
+    background-color: black;
+    border-bottom:1px solid white;
+    border-radius: 0 0 100px 100px ;
     position: absolute;
-    top: 50%;
-    left: 0;
-    background: white;
-    border: 18px solid black;
+    top: 0;
+    left:50%;
+}
+.blackBall{
+    width:25px;
+    height:25px;
+    border: 1px solid black;
     border-radius: 50%;
-    width: 12px;
-    height: 12px;
-}
-.taiji::after {
-    content: "";
+    background-color: black;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    background: black;
-    border: 18px solid #eee;
-    border-radius:50%;
-    width: 12px;
-    height: 12px;
+    top:-13px;
+    left:32px;
 }
- 
- 
+.whiteBall{
+    width:25px;
+    height:25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:-13px;
+    right:32px;
+}
