@@ -15,7 +15,6 @@
     bottom:50%;
     left: 25%;
     background-color: black;
-    display: inline-block;
 }
 .yinyang .whiteCircle{
     
@@ -28,7 +27,6 @@
     top:0;
     left: 0;right: 0;bottom: 0;
     margin: auto;    
-    display: inline-block;
 }
 
 .yinyang .white{
@@ -39,7 +37,6 @@
     position: absolute;
     top:50%;
     left: 25%;
-    display: inline-block;
     background-clip: white;
 }
 .yinyang .blackCircle{
@@ -53,5 +50,4 @@
     top:0;
     left: 0;right: 0;bottom: 0;
     margin: auto;   
-    display: inline-block; 
 }
