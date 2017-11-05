@@ -6,8 +6,11 @@ body{
 
 .taiji{
     width:200px;
+    height: 200px;
     margin: 100px auto;
-    border: 50%;
+    border-radius: 100%;
+    animation: 3s linear 0s infinite hh;   
+    box-shadow: 0 0 5px #888; 
 }
 .taijiTop{
     width:200px;
@@ -16,7 +19,6 @@ body{
     border-radius: 100px 100px 0 0 ;
     background-color: black;
     position: relative;
-    box-shadow: 0 -2px 1px #888;
 }
 .black{
     width:100px;
@@ -35,8 +37,7 @@ body{
     border-bottom:1px solid white;
     border-radius: 0 0 100px 100px ;
     background-color: white;
-    position: relative;
-    box-shadow: 0 2px 1px #888;    
+    position: relative;  
 }
 .white{
     width:100px;
@@ -68,7 +69,12 @@ body{
     top:-13px;
     right:32px;
 }
-ol{
+ul{
     width:230px;
     margin: 0 auto;
 }
+@keyframes hh {
+    from { transform: rotate(0); }
+    to   { transform: rotate(360deg);}
+
+  }
