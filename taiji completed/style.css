@@ -1,10 +1,13 @@
 body{
     background-color: #ddd;
-    padding: 200px;
-}
-div{
-    padding: 0;
     margin: 0;
+    padding: 0;
+}
+
+.taiji{
+    width:200px;
+    margin: 100px auto;
+    border: 50%;
 }
 .taijiTop{
     width:200px;
@@ -13,6 +16,7 @@ div{
     border-radius: 100px 100px 0 0 ;
     background-color: black;
     position: relative;
+    box-shadow: 0 -2px 1px #888;
 }
 .black{
     width:100px;
@@ -32,6 +36,7 @@ div{
     border-radius: 0 0 100px 100px ;
     background-color: white;
     position: relative;
+    box-shadow: 0 2px 1px #888;    
 }
 .white{
     width:100px;
@@ -62,4 +67,8 @@ div{
     position: absolute;
     top:-13px;
     right:32px;
+}
+ol{
+    width:230px;
+    margin: 0 auto;
 }
